@@ -1,6 +1,9 @@
 # Kumari Tannu - Portfolio Website
 
-This is a beautiful, responsive portfolio website for Kumari Tannu, showcasing her skills, projects, and achievements. The website is built with HTML, CSS, and JavaScript and can be easily hosted on GitHub Pages.
+🔗 **Live Website**: [View Portfolio](https://krtannu2012.github.io/portfolio/)
+
+This is a beautiful, responsive portfolio website for Kumari Tannu, showcasing her skills, projects, and achievements...
+
 
 ## Features
 
