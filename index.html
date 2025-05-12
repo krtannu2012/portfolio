@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kumari Tannu - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">KT</div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <div class="theme-switch">
+                <i class="fas fa-moon"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content" data-aos="fade-right" data-aos-duration="1000">
+                <h1>Hello, I'm <span class="highlight">Kumari Tannu</span></h1>
+                <div class="typing-container">
+                    <span id="typing-text"></span><span class="cursor-blink">|</span>
+                </div>
+                <p>B.Tech CSE Student | Machine Learning Enthusiast | Full-Stack Developer | Problem Solver</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn primary-btn">Contact Me</a>
+                    <a href="#projects" class="btn secondary-btn">View Projects</a>
+                </div>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/kumari-tannu-938281295" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/krtannu" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="mailto:krtannu2012@gmail.com"><i class="fas fa-envelope"></i></a>
+                    <a href="https://leetcode.com/" target="_blank"><i class="fas fa-code"></i></a>
+                </div>
+            </div>
+            <div class="hero-image" data-aos="fade-left" data-aos-duration="1000">
+                <div class="image-container">
+                    <img src="myphoto.jpg" alt="Kumari Tannu" class="real-photo">
+                    <img src="myghibliphoto.jpg" alt="Ghibli Style Kumari Tannu" class="ghibli-photo">
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <a href="#about">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <div>
+                    <span class="scroll-down-arrow"></span>
+                    <span class="scroll-down-arrow"></span>
+                    <span class="scroll-down-arrow"></span>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>About Me</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image" data-aos="fade-right" data-aos-duration="1000">
+                    <img src="https://user-images.githubusercontent.com/74038190/221352975-94759904-aa4c-4032-a8ab-b546efb9c478.gif" alt="Coding Animation">
+                </div>
+                <div class="about-text" data-aos="fade-left" data-aos-duration="1000">
+                    <p>I'm a <strong>Computer Science Engineering student</strong> with a passion for solving real-world problems through technology. My interests span from <strong>machine learning and data analysis</strong> to <strong>web development</strong> and <strong>algorithm design</strong>.</p>
+                    <p>I enjoy participating in hackathons and contributing to collaborative projects that make a positive impact.</p>
+                    
+                    <div class="about-details">
+                        <div class="about-detail">
+                            <i class="fas fa-code"></i>
+                            <div>
+                                <h3>Currently working on</h3>
+                                <p>AI-Powered Smart Resume Builder</p>
+                            </div>
+                        </div>
+                        <div class="about-detail">
+                            <i class="fas fa-brain"></i>
+                            <div>
+                                <h3>Learning</h3>
+                                <p>Machine Learning, React.js, Advanced Algorithms</p>
+                            </div>
+                        </div>
+                        <div class="about-detail">
+                            <i class="fas fa-users"></i>
+                            <div>
+                                <h3>Collaboration</h3>
+                                <p>Open-source projects and hackathons</p>
+                            </div>
+                        </div>
+                        <div class="about-detail">
+                            <i class="fas fa-trophy"></i>
+                            <div>
+                                <h3>Achievement</h3>
+                                <p>Top 4 finalist at IIT Madras Hackathon</p>
+                            </div>
+                        </div>
+                        <div class="about-detail">
+                            <i class="fas fa-cube"></i>
+                            <div>
+                                <h3>Fun fact</h3>
+                                <p>I can solve a Rubik's cube in under 2 minutes!</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-buttons">
+                        <a href="#skills" class="btn primary-btn">My Skills</a>
+                        <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Tech Stack</h2>
+                <div class="underline"></div>
+            </div>
+            
+            <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                <h3>Languages</h3>
+                <div class="skills-container">
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fab fa-c"></i></div>
+                        <h4>C</h4>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fab fa-cuttlefish"></i></div>
+                        <h4>C++</h4>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fab fa-python"></i></div>
+                        <h4>Python</h4>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fab fa-js"></i></div>
+                        <h4>JavaScript</h4>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                        <h4>HTML5</h4>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                        <h4>CSS3</h4>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                <h3>Frameworks & Libraries</h3>
+                <div class="skills-container">
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fab fa-react"></i></div>
+                        <h4>React</h4>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fas fa-brain"></i></div>
+                        <h4>scikit-learn</h4>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fas fa-calculator"></i></div>
+                        <h4>Numpy</h4>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fas fa-table"></i></div>
+                        <h4>Pandas</h4>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                <h3>Databases</h3>
+                <div class="skills-container">
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fas fa-database"></i></div>
+                        <h4>MySQL</h4>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skill-category" data-aos="fade-up" data-aos-delay="400">
+                <h3>Tools & Technologies</h3>
+                <div class="skills-container">
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+                        <h4>Git</h4>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fab fa-github"></i></div>
+                        <h4>GitHub</h4>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fas fa-code"></i></div>
+                        <h4>VS Code</h4>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fas fa-laptop-code"></i></div>
+                        <h4>Jupyter</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Featured Projects</h2>
+                <div class="underline"></div>
+            </div>
+            
+            <div class="projects-container">
+                <!-- Project Card 1 -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <img src="https://cdn.dribbble.com/users/2520294/screenshots/7269423/media/e8181476ca9e9493b3f051011eda269a.gif" alt="WellNest">
+                    </div>
+                    <div class="project-content">
+                        <h3>🧠 WellNest – Smart Mental Health Capsules</h3>
+                        <p>AI-powered mental wellness pods using IoT, VR, and mood personalization. Top 4 finalist in IIT Madras Hackathon.</p>
+                        <div class="project-tags">
+                            <span>AI/ML</span>
+                            <span>IoT</span>
+                            <span>VR</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/krtannu2012/WellNest-Smart-Mental-Health-Capsules" target="_blank" class="btn secondary-btn">View Code</a>
+                            <a href="https://github.com/krtannu2012/WellNest-Smart-Mental-Health-Capsules" target="_blank" class="btn primary-btn">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project Card 2 -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <img src="https://cdn.dribbble.com/users/187497/screenshots/2361303/heart.gif" alt="Heart Attack Predictor">
+                    </div>
+                    <div class="project-content">
+                        <h3>💓 Heart Attack Predictor</h3>
+                        <p>Predictive system to assess heart attack risks based on health metrics. Achieved 85% model accuracy with personalized recommendations.</p>
+                        <div class="project-tags">
+                            <span>Machine Learning</span>
+                            <span>Data Analysis</span>
+                            <span>Python</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/krtannu2012/Heart-Attack-Prediction" target="_blank" class="btn secondary-btn">View Code</a>
+                            <a href="https://github.com/krtannu2012/Heart-Attack-Prediction" target="_blank" class="btn primary-btn">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project Card 3 -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-image">
+                        <img src="https://cdn.dribbble.com/users/1138814/screenshots/4669703/climate_change.gif" alt="Climate Pulse">
+                    </div>
+                    <div class="project-content">
+                        <h3>🌾 Climate Pulse</h3>
+                        <p>Climate awareness tool designed for farmers. Qualified for Vultr Cloud Innovate Hackathon.</p>
+                        <div class="project-tags">
+                            <span>No-code tools</span>
+                            <span>MySQL</span>
+                            <span>Vultr Cloud</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/krtannu/ClimatePulse.git" target="_blank" class="btn secondary-btn">View Code</a>
+                            <a href="https://github.com/krtannu/ClimatePulse.git" target="_blank" class="btn primary-btn">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project Card 4 -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="project-image">
+                        <img src="https://cdn.dribbble.com/users/1144771/screenshots/8700276/wheat-bytes.gif" alt="Crop Recommendation System">
+                    </div>
+                    <div class="project-content">
+                        <h3>🌿 Crop Recommendation System</h3>
+                        <p>System to recommend suitable crops based on soil characteristics. Enhanced agricultural productivity through data-driven insights.</p>
+                        <div class="project-tags">
+                            <span>AI/ML</span>
+                            <span>SQL</span>
+                            <span>Python</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/krtannu" target="_blank" class="btn secondary-btn">View Code</a>
+                            <a href="https://us-south.ml.cloud.ibm.com/ml/v4/deployments/75d13e93-c232-4409-a49a-94a966a05ccb/predictions?version=2021-05-01" target="_blank" class="btn primary-btn">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="current-project" data-aos="fade-up">
+                <h3>🔍 Currently Working On</h3>
+                <div class="current-project-card">
+                    <div class="project-image">
+                        <img src="https://cdn.dribbble.com/users/891352/screenshots/4175105/media/e14f7441bdf2a936c7fdc50cf0e1e117.gif" alt="AI Resume Builder">
+                    </div>
+                    <div class="project-content">
+                        <h3>🤖 AI-Powered Smart Resume Builder</h3>
+                        <p>Finalist project for Hacksagon Hackathon. ATS-friendly resume generation.</p>
+                        <div class="project-tags">
+                            <span>AI/ML</span>
+                            <span>React</span>
+                            <span>NLP</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/krtannu/AI-Resume-Builder" target="_blank" class="btn primary-btn">View Repository</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Achievements</h2>
+                <div class="underline"></div>
+            </div>
+            
+            <div class="achievements-container">
+                <div class="achievement-column" data-aos="fade-right">
+                    <h3>Hackathon Success</h3>
+                    <div class="achievement-item">
+                        <div class="achievement-icon">🥇</div>
+                        <div class="achievement-content">
+                            <h4>Top 4 Finalist – WellNest Hackathon</h4>
+                            <p>IIT Madras</p>
+                            <p>Awarded ₹25,000 prize</p>
+                        </div>
+                    </div>
+                    <div class="achievement-item">
+                        <div class="achievement-icon">🚀</div>
+                        <div class="achievement-content">
+                            <h4>Finalist – Hacksagon Hackathon 2025</h4>
+                            <p>IIITM Gwalior</p>
+                        </div>
+                    </div>
+                    <div class="achievement-item">
+                        <div class="achievement-icon">🥉</div>
+                        <div class="achievement-content">
+                            <h4>2nd Runner-up – Technothon</h4>
+                            <p>Innovative tech solutions</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="achievement-column" data-aos="fade-left">
+                    <h3>Technical Milestones</h3>
+                    <div class="achievement-item">
+                        <div class="achievement-icon">🧠</div>
+                        <div class="achievement-content">
+                            <h4>170+ DSA problems solved</h4>
+                            <p>LeetCode & CodeStudio</p>
+                        </div>
+                    </div>
+                    <div class="achievement-item">
+                        <div class="achievement-icon">🧪</div>
+                        <div class="achievement-content">
+                            <h4>Qualified – Vultr Cloud Innovate Hackathon</h4>
+                            <p>Cloud implementation project</p>
+                        </div>
+                    </div>
+                    <div class="achievement-item">
+                        <div class="achievement-icon">📦</div>
+                        <div class="achievement-content">
+                            <h4>Participant – Flipkart Grid 6.0</h4>
+                            <p>E-commerce innovation challenge</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="stats-container" data-aos="fade-up">
+            <div class="stats-item">
+                <div class="stat-number counter" data-count="170">0</div>
+                <p>DSA Problems Solved</p>
+            </div>
+            <div class="stats-item">
+                <div class="stat-number counter" data-count="4">0</div>
+                <p>Hackathon Prizes</p>
+            </div>
+            <div class="stats-item">
+                <div class="stat-number counter" data-count="10">0</div>
+                <p>Projects Completed</p>
+            </div>
+            <div class="stats-item">
+                <div class="stat-number counter" data-count="3">0</div>
+                <p>Years of Coding</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Connect With Me</h2>
+                <div class="underline"></div>
+            </div>
+            
+            <div class="contact-container">
+                <div class="contact-info" data-aos="fade-right">
+                    <h3>Let's Build Something Amazing Together!</h3>
+                    <p>Feel free to reach out to me for collaborations, opportunities, or just to say hello!</p>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:krtannu2012@gmail.com">krtannu2012@gmail.com</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <p><a href="https://www.linkedin.com/in/kumari-tannu-938281295" target="_blank">Kumari Tannu</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <h4>GitHub</h4>
+                            <p><a href="https://github.com/krtannu" target="_blank">krtannu</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <div>
+                            <h4>WhatsApp</h4>
+                            <p><a href="tel:9142083847">+91 9142083847</a></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form" data-aos="fade-left">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            <label for="name">Your Name</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            <label for="email">Your Email</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                            <label for="subject">Subject</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                            <label for="message">Your Message</label>
+                        </div>
+                        
+                        <button type="submit" class="btn primary-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Kumari Tannu</h3>
+                    <p>"Turning ideas into reality, one line of code at a time."</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#achievements">Achievements</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-social">
+                    <h4>Connect</h4>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/kumari-tannu-938281295" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/krtannu" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="mailto:krtannu2012@gmail.com"><i class="fas fa-envelope"></i></a>
+                        <a href="https://leetcode.com/" target="_blank"><i class="fas fa-code"></i></a>
+                        <a href="tel:9142083847"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Kumari Tannu. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <button id="backToTop" title="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
